@@ -13,4 +13,5 @@ These two areas—biodiversity of food production and urbanization dynamics—ar
 
 The overarching questions addressed by this Pursuit are: 
 - How do food-producing systems correspond to characteristic landscapes and connect to food supply chains and in turn how do these factors shape agrobiodiversity? 
-- How does the process of urbanization reshape the demand for food systems, and how does this in turn shape food diversity and landscapes? - What are the processes and pathways by which food-producinglandscapes, production systemsand urbanization processes (e.g., food demand) are linked and affect each other?
+- How does the process of urbanization reshape the demand for food systems, and how does this in turn shape food diversity and landscapes?
+- What are the processes and pathways by which food-producinglandscapes, production systemsand urbanization processes (e.g., food demand) are linked and affect each other?
