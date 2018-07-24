@@ -13,7 +13,7 @@ The overarching questions addressed by this Pursuit are:
 - What are the processes and pathways by which food-producinglandscapes, production systemsand urbanization processes (e.g., food demand) are linked and affect each other?
 
 ## PIs
-Karl Zimmerer - Penn State
+Karl Zimmerer - Penn State//
 Karen C. Seto - Yale University
 
-My name: Christopher Bren d'Amour. Postdoc at Yale University
+My name: Christopher Bren d'Amour Postdoc at Yale University
