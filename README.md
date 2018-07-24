@@ -15,6 +15,9 @@ The overarching questions addressed by this Pursuit are:
 
 ## PIs
 Karl Zimmerer - Penn State
+
 Karen C. Seto - Yale University
 
-
+## Collaborators
+Christopher Bren d'Amour
+....
