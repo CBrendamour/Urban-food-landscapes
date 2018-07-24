@@ -1,7 +1,7 @@
 # Urban-food-landscapes
 ## Pursuit Workshop: Linkages of agrobiodiversity in urban systems and food-producing landscapes
 
-Supporting the biodiversity of food systems amid expanding urbanization is one of the main challenges facing humanity. This Pursuit addresses two major knowledge-policy gaps in this domain:
+Supporting the biodiversity of food systems amid expanding urbanization is a major challenges. This Pursuit addresses two major knowledge-policy gaps in this domain:
 
 (1) the biodiversity of food-producing landscapes (rural, periurban, urban) linked to urbanization;
 
