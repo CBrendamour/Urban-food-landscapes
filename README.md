@@ -4,6 +4,7 @@
 Supporting the biodiversity of food systems amid expanding urbanization is one of the main challenges facing humanity. This Pursuit addresses two major knowledge-policy gaps in this domain:
 
 (1) the biodiversity of food-producing landscapes (rural, periurban, urban) linked to urbanization;
+
 (2) contemporary urbanization dynamics and their linkages to food systems. 
 
 The overarching questions addressed by this Pursuit are: 
