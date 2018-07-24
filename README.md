@@ -3,7 +3,6 @@
 
 ## PIs
 Karl Zimmerer - Penn State
-
 Karen C. Seto - Yale University
 
 Supporting the biodiversity of food systems amid expanding urbanization is one of the main challenges facing humanity. This Pursuit addresses two major knowledge-policy gaps in this domain: 
