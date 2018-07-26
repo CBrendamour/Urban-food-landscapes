@@ -44,12 +44,17 @@ plot(tracts_phil$geometry)
 #### Linking of df_input and tracts files using $TRACT as unique identifier
 
 ##df_input <- rename(df_input, replace = ('tract_strg' = 'TRACTCE')) # rename column (didn't work)
-names(df_input)[names(df_input)=="tract_strg"] <- "TRACTCE" 
+names(df_input)[names(df_input)=="tract_strg"] <- "TRACTCE" # renaming to allow for a merge by unique ID
 
 df_input_map <- merge(tracts_phil, df_input, by = 'TRACTCE')# join didn't work, merge did
 
+## potential questions: which hh buy what food items in another zip code
 
-######## END of Script.
+######## END of Script #####
+
+
+
+
 metros <- core_based_statistical_areas(cb = TRUE) # get core stat areas
 
 ### Get outline
