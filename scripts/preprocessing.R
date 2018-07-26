@@ -33,6 +33,16 @@ library(tidyverse)
 options(tigris_class = "sf")
 options(tigris_use_cache = TRUE)
 
+function_processing_data <- "BP_exploration_of_data_functions.R" #PARAM 1
+script_path <- "/home/christopher/Urban_food_landscapes/Urban_food_landscapes" #path to script #PARAM 
+source(file.path(script_path,function_processing_data)) #source all functions used in this script 1.
+
+#debug(metro_tracts)
+tracts_phil <- metro_tracts("Philadelphia-Camden-Wilmington, PA-NJ-DE-MD")
+
+plot(tracts_phil$geometry)
+
+
 metros <- core_based_statistical_areas(cb = TRUE) # get core stat areas
 
 ### Get outline
