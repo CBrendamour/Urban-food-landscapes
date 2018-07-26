@@ -33,16 +33,23 @@ library(tidyverse)
 options(tigris_class = "sf")
 options(tigris_use_cache = TRUE)
 
-function_processing_data <- "BP_exploration_of_data_functions.R" #PARAM 1
+function_processing_data <- "BP_exploration_of_data_functions.R" #Reading in of functions script from Benoit
 script_path <- "/home/christopher/Urban_food_landscapes/Urban_food_landscapes" #path to script #PARAM 
 source(file.path(script_path,function_processing_data)) #source all functions used in this script 1.
 
-#debug(metro_tracts)
 tracts_phil <- metro_tracts("Philadelphia-Camden-Wilmington, PA-NJ-DE-MD")
 
 plot(tracts_phil$geometry)
 
+#### Linking of df_input and tracts files using $TRACT as unique identifier
 
+##df_input <- rename(df_input, replace = ('tract_strg' = 'TRACTCE')) # rename column (didn't work)
+names(df_input)[names(df_input)=="tract_strg"] <- "TRACTCE" 
+
+df_input_map <- merge(tracts_phil, df_input, by = 'TRACTCE')# join didn't work, merge did
+
+
+######## END of Script.
 metros <- core_based_statistical_areas(cb = TRUE) # get core stat areas
 
 ### Get outline
