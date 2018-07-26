@@ -1,11 +1,12 @@
-# Urban-food-landscapes
-## Pursuit Workshop: Linkages of agrobiodiversity in urban systems and food-producing landscapes
+# SESYNC Pursuit
+
+## [Linkages of agrobiodiversity in urban systems and food-producing landscapes][1]
 
 Supporting the biodiversity of food systems amid expanding urbanization is a major challenge. This Pursuit addresses two major knowledge-policy gaps in this domain:
 
-(1) the biodiversity of food-producing landscapes (rural, periurban, urban) linked to urbanization;
+1. the biodiversity of food-producing landscapes (rural, periurban, urban) linked to urbanization;
 
-(2) contemporary urbanization dynamics and their linkages to food systems. 
+1. contemporary urbanization dynamics and their linkages to food systems. 
 
 The overarching questions addressed by this Pursuit are: 
 
@@ -14,10 +15,15 @@ The overarching questions addressed by this Pursuit are:
 - What are the processes and pathways by which food-producinglandscapes, production systemsand urbanization processes (e.g., food demand) are linked and affect each other?
 
 ## PIs
+
 Karl Zimmerer - Penn State
 
 Karen C. Seto - Yale University
 
 ## Collaborators
+
 Christopher Bren d'Amour
+
 ....
+
+[1]: https://www.sesync.org/project/propose-a-pursuit/linkages-of-agrobiodiversity-in-urban-systems-and-food-producing
