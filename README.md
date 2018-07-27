@@ -18,15 +18,24 @@ The overarching questions addressed by this Pursuit are:
 ## Objectives for CYBER training week
 
 
-(i) Understanding the tools available, setting up a working repository
+(i) Understanding the tools available, setting up some generic scripts that could potentially applied at a later stage
 
 (ii) do some tentative data analysis with teh sample dataset
 
 
 ## Outomces
 
-Ad (i) A lot
+Ad (i) ...
 
 Ad (ii) ?
+
+
+## Take-aways
+
+(i) Helpful to be prepared
+
+(ii) Get information on the types of data that people bring to the table
+
+
 
 [1]: https://www.sesync.org/project/propose-a-pursuit/linkages-of-agrobiodiversity-in-urban-systems-and-food-producing
