@@ -34,6 +34,8 @@ Ad (ii) ?
 
 (i) Helpful to be prepared
 
+(ii) Come as a team
+
 (ii) Get information on the types of data that people bring to the table
 
 
