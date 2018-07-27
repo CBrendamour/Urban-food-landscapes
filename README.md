@@ -22,7 +22,7 @@ The overarching questions addressed by this Pursuit are:
 
 (ii) do some tentative data analysis with teh sample dataset
 
-(iii) AVOID TO HAVING TO DANCE!
+(iii) AVOID DANCING AT ALL COSTS!
 
 
 ## Outomces
@@ -30,6 +30,8 @@ The overarching questions addressed by this Pursuit are:
 Ad (i) ...
 
 Ad (ii) ?
+
+Ad (iii) !
 
 
 ## Take-aways/ next steps
