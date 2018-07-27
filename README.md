@@ -22,6 +22,8 @@ The overarching questions addressed by this Pursuit are:
 
 (ii) do some tentative data analysis with teh sample dataset
 
+(iii) AVOID TO HAVING TO DANCE!
+
 
 ## Outomces
 
