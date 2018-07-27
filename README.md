@@ -36,7 +36,9 @@ Ad (ii) ?
 
 (ii) Bring at least some of the team (ideally the ones that call the shots)
 
-(ii) Get information on the types of data that people bring to the table
+(iii) Document what you are doing
+
+(iv) Get information on the types of data that people bring to the table
 
 
 
