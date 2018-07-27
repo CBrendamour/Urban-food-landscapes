@@ -34,7 +34,7 @@ Ad (ii) ?
 
 (i) Helpful to be prepared!!!
 
-(ii) Bring at least some of the team
+(ii) Bring at least some of the team (ideally the ones that call the shots)
 
 (ii) Get information on the types of data that people bring to the table
 
