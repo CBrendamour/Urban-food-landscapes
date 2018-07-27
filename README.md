@@ -16,11 +16,14 @@ The overarching questions addressed by this Pursuit are:
 
 ## Objectives for cyberinfrastructure week
 
-(i) Understanding the tools available (ii) do some tentative data analysis!
+(i) Understanding the tools available 
+
+(ii) do some tentative data analysis!
 
 ## Outomces
 
 Ad (i) A lot
+
 Ad (ii) ?
 
 [1]: https://www.sesync.org/project/propose-a-pursuit/linkages-of-agrobiodiversity-in-urban-systems-and-food-producing
