@@ -14,16 +14,13 @@ The overarching questions addressed by this Pursuit are:
 - How does the process of urbanization reshape the demand for food systems, and how does this in turn shape food diversity and landscapes?
 - What are the processes and pathways by which food-producinglandscapes, production systemsand urbanization processes (e.g., food demand) are linked and affect each other?
 
-## PIs
+## Objectives for cyberinfrastructure week
 
-Karl Zimmerer - Penn State
+(i) Understanding the tools available (ii) do some tentative data analysis!
 
-Karen C. Seto - Yale University
+## Outomces
 
-## Collaborators
-
-Christopher Bren d'Amour
-
-....
+Ad (i) A lot
+Ad (ii) ?
 
 [1]: https://www.sesync.org/project/propose-a-pursuit/linkages-of-agrobiodiversity-in-urban-systems-and-food-producing
