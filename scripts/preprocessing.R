@@ -9,7 +9,7 @@ infilename <- file.path(in_dir, infilename)
 df_input <- read_dta(infilename)
 
 
-###### Library used (taken from Benoit)
+###### Libraries used
 
 library(gtools)                              # loading some useful tools 
 library(sp)                                  # Spatial pacakge with class definition by Bivand et al.
@@ -37,18 +37,52 @@ function_processing_data <- "BP_exploration_of_data_functions.R" #Reading in of 
 script_path <- "/home/christopher/Urban_food_landscapes/Urban_food_landscapes" #path to script #PARAM 
 source(file.path(script_path,function_processing_data)) #source all functions used in this script 1.
 
-tracts_phil <- metro_tracts("Philadelphia-Camden-Wilmington, PA-NJ-DE-MD")
+tracts_phil <- metro_tracts("Philadelphia-Camden-Wilmington, PA-NJ-DE-MD") ## insdert name of metro region to be analyzed here
 
 plot(tracts_phil$geometry)
 
 #### Linking of df_input and tracts files using $TRACT as unique identifier
 
-##df_input <- rename(df_input, replace = ('tract_strg' = 'TRACTCE')) # rename column (didn't work)
 names(df_input)[names(df_input)=="tract_strg"] <- "TRACTCE" # renaming to allow for a merge by unique ID
 
 df_input_map <- merge(tracts_phil, df_input, by = 'TRACTCE')# join didn't work, merge did
 
-## potential questions: which hh buy what food items in another zip code
+
+
+
+
+### Creating output for presentation: share of hh per tract that did buy at a store in a different zipcode
+# Preprocessing includes making sure store_zip3 and zipcode are both numeric, and create an additonal column 'zipcombo'
+# where TRUE indicates if hh bought outside (i.e. zipcode-store_zip3 = 0). Important not to include the lines
+# with no value for store_zip!!
+
+df_tsummary <- aggregate(hhid ~ TRACTCE, data = df_input_map, FUN = length)
+df_tripsummary <- aggregate(trip_code_uc ~ TRACTCE, data = df_input_map, FUN = length)
+df_map <- join(df_tsummary, df_tripsummary, by = "TRACTCE")
+df_map2 <- merge(tracts_phil, df_map, by = 'TRACTCE')
+
+
+df_input_map$store_zip3 <- as.numeric(df_input_map$store_zip3)
+df_input_map2 <- df_input_map[!is.na(df_input_map$store_zip3),]
+
+df_map2 <- mutate(df_map2, tperhh = trip_code_uc/hhid)
+
+df_input_map$store_zip3 == df_input_map$zipcode[1:3]
+  
+format(12345,digit=3)
+
+test_str <-"123test"
+substr(test_str, start = 1, stop = 3)
+?nchar
+df_input_map2 <- mutate(df_input_map,
+               zipcombo = zipcode - store_zip3)
+
+
+df %>% 
+  mutate(BdivA = MetricB/MetricA) %>% 
+  group_by(Brands, Channels) %>% 
+  summarize(mean_BdivA = mean(BdivA)) 
+
 
 ######## END of Script #####
 
