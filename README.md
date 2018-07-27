@@ -16,9 +16,11 @@ The overarching questions addressed by this Pursuit are:
 
 ## Objectives for cyberinfrastructure week
 
-(i) Understanding the tools available 
 
-(ii) do some tentative data analysis!
+(i) Understanding the tools available, setting up a working repository
+
+(ii) do some tentative data analysis with teh sample dataset
+
 
 ## Outomces
 
